@@ -1,0 +1,137 @@
+// Focus
+
+:focus {
+  outline: 0 !important;
+}
+
+// Document
+
+html {
+  box-sizing: border-box;
+
+  @if $enable-smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+// Body
+
+body {
+  pointer-events: none;
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  color: var(--body-color);
+  text-align: var(--body-text-align);
+  background-color: var(--body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba($black, 0);
+  min-height: 100vh;
+}
+
+// Links
+
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: $link-hover-decoration;
+  }
+}
+
+// Buttons & Inputs
+
+button,
+input,
+select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button {
+  border-radius: 0;
+}
+
+button {
+  &:focus:not(:focus-visible) {
+    outline: 0;
+  }
+}
+
+select {
+  word-wrap: normal;
+}
+
+// Images and content
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: $headings-margin-bottom;
+  font-family: $headings-font-family;
+  font-style: $headings-font-style;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  color: var(--heading-color);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: $paragraph-margin-bottom;
+  max-width: 75ch;
+}
+
+// Forms
+
+label {
+  display: inline-block;
+  font-weight: $font-weight-medium;
+}
+
+// Lists
+
+dl,
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: $font-size-base;
+}

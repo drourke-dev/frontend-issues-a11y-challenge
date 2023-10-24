@@ -1,0 +1,11 @@
+.c-featured-posts {
+  margin-bottom: $spacing-24;
+  &__grid {
+    display: grid;
+    gap: $spacing-16;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

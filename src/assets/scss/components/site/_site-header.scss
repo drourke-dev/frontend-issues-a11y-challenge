@@ -1,0 +1,33 @@
+.site-header {
+  &__topbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+      "site-logo site-logo site-logo"
+      "link cta cta";
+    gap: $spacing-16;
+    padding-top: $spacing-16;
+    padding-bottom: $spacing-16;
+    line-height: $line-height-xs;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-areas: "link site-logo cta";
+    }
+
+    &__link {
+      grid-area: link;
+    }
+
+    &__site-logo {
+      grid-area: site-logo;
+      justify-self: center;
+    }
+
+    &__cta {
+      grid-area: cta;
+      justify-self: end;
+    }
+  }
+}

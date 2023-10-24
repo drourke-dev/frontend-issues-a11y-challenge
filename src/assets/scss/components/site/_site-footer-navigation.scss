@@ -1,0 +1,22 @@
+.site-footer-navigation {
+  &__title {
+    color: $white;
+    font-size: $font-size-16;
+    font-weight: $font-weight-semibold;
+    font-family: $font-family-base;
+    margin-bottom: $spacing-16;
+  }
+
+  &__nav {
+    flex-direction: column;
+
+    &__link {
+      color: $gray-500;
+
+      &:hover,
+      &:focus {
+        color: $white;
+      }
+    }
+  }
+}

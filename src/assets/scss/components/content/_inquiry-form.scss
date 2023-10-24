@@ -1,0 +1,17 @@
+.c-inquiry-form {
+  display: grid;
+  gap: $spacing-48;
+  margin-bottom: $spacing-48;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  &__form-control {
+    margin-bottom: $spacing-24;
+
+    label {
+      margin-bottom: $spacing-8;
+    }
+  }
+}

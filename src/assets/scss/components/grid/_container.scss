@@ -1,0 +1,24 @@
+.l-container {
+  width: 100%;
+  padding-right: $spacing-12;
+  padding-left: $spacing-12;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1320px;
+
+  @media (min-width: $breakpoint-sm) {
+    max-width: 540px;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    max-width: 720px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    max-width: 960px;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    max-width: 1140px;
+  }
+}

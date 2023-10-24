@@ -1,0 +1,15 @@
+.site-navbar {
+  border-top: $border-width $border-style $border-color;
+  border-bottom: $border-width $border-style $border-color;
+  margin-bottom: $spacing-16;
+
+  &__nav {
+    column-gap: $spacing-16;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: $breakpoint-md) {
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.c-hero {
+  display: grid;
+  padding: $spacing-48;
+  margin-bottom: $spacing-24;
+  background-color: $gray-200;
+  border-radius: $border-radius;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

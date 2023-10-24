@@ -1,0 +1,25 @@
+.c-select {
+  --form-select-bg-img: #{escape-svg($form-select-indicator)};
+
+  &__select {
+    display: block;
+    width: 100%;
+    padding: $form-select-padding-y $form-select-indicator-padding
+      $form-select-padding-y $form-select-padding-x;
+    font-family: $form-select-font-family;
+    font-size: $form-select-font-size;
+    font-weight: $form-select-font-weight;
+    line-height: $form-select-line-height;
+    color: $form-select-color;
+    appearance: none;
+    border: $form-select-border-width solid $form-select-border-color;
+    border-radius: $form-select-border-radius;
+    transition: $form-select-transition;
+    background-color: $form-select-bg;
+    background-image: var(--form-select-bg-img),
+      var(--form-select-bg-icon, none);
+    background-repeat: no-repeat;
+    background-position: $form-select-bg-position;
+    background-size: $form-select-bg-size;
+  }
+}

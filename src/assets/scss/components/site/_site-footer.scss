@@ -1,0 +1,14 @@
+.site-footer {
+  background-color: $gray-900;
+  padding-top: $spacing-48;
+  padding-bottom: $spacing-48;
+
+  &__grid {
+    display: grid;
+    gap: $spacing-32;
+
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}

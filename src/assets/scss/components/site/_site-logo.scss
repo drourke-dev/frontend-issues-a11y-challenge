@@ -1,0 +1,12 @@
+.site-logo {
+  font-size: $font-size-36;
+  font-family: $site-logo-font-family;
+  font-weight: $site-logo-font-weight;
+  color: $site-logo-color;
+  text-decoration: $site-logo-decoration;
+
+  &:hover {
+    color: $site-logo-hover-color;
+    text-decoration: $site-logo-hover-decoration;
+  }
+}

@@ -1,0 +1,27 @@
+.c-paragraph {
+  &--lead {
+    font-size: $lead-font-size;
+    font-weight: $font-weight-light;
+  }
+}
+
+.c-heading {
+  &--1 {
+    font-style: italic;
+    font-size: $font-size-48;
+    font-weight: $font-weight-bold;
+  }
+
+  &--2 {
+    font-size: $font-size-28;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-24;
+    padding-bottom: $spacing-16;
+    border-bottom: $border-width $border-style $border-color;
+  }
+
+  &--3 {
+    font-size: $font-size-28;
+    font-weight: $font-weight-bold;
+  }
+}

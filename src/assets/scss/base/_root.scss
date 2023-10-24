@@ -1,0 +1,17 @@
+:root {
+  --font-sans-serif: #{$font-family-sans-serif};
+  --body-font-family: #{$font-family-base};
+  --body-font-size: #{$font-size-base};
+  --body-font-weight: #{$font-weight-base};
+  --body-line-height: #{$line-height-base};
+  --body-color: #{$body-color};
+  --body-text-align: #{$body-text-align};
+  --body-bg: #{$body-bg};
+  --heading-color: #{$headings-color};
+  --border-width: #{$border-width};
+  --border-style: #{$border-style};
+  --border-color: #{$border-color};
+  --border-radius: #{$border-radius};
+  --link-color: #{$link-color};
+  --link-hover-color: #{$link-hover-color};
+}

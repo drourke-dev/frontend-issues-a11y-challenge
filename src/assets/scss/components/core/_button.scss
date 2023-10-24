@@ -1,0 +1,39 @@
+.c-button {
+  --btn-padding-x: #{$btn-padding-x};
+  --btn-padding-y: #{$btn-padding-y};
+  --btn-font-family: #{$btn-font-family};
+  --btn-font-size: #{$btn-font-size};
+  --btn-font-weight: #{$btn-font-weight};
+  --btn-line-height: #{$btn-line-height};
+  --btn-color: #{$btn-color};
+  --btn-bg: #{$btn-bg};
+  --btn-border-width: #{$btn-border-width};
+  --btn-border-color: #{$btn-border-color};
+  --btn-border-radius: #{$btn-border-radius};
+  --btn-hover-color: #{$btn-hover-color};
+  --btn-hover-bg: #{$btn-hover-bg};
+  --btn-hover-border-color: #{$btn-hover-border-color};
+
+  display: inline-block;
+  padding: var(--btn-padding-y) var(--btn-padding-x);
+  font-family: var(--btn-font-family);
+  font-size: var(--btn-font-size);
+  font-weight: var(--btn-font-weight);
+  line-height: var(--btn-line-height);
+  color: var(--btn-color);
+  text-align: center;
+  text-decoration: none;
+  white-space: $btn-white-space;
+  vertical-align: middle;
+  user-select: none;
+  border: var(--btn-border-width) solid var(--btn-border-color);
+  border-radius: var(--btn-border-radius);
+  background-color: var(--btn-bg);
+  transition: $btn-transition;
+
+  &:hover {
+    color: var(--btn-hover-color);
+    background-color: var(--btn-hover-bg);
+    border-color: var(--btn-hover-border-color);
+  }
+}

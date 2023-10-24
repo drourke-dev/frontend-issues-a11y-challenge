@@ -1,0 +1,202 @@
+$white: #fff;
+$black: #000;
+
+$gray-dark: #343a40;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+$homez-green: #005a6a;
+$homez-blue: #036;
+
+// Characters which are escaped by the escape-svg function
+$escaped-characters: (
+  ("<", "%3c"),
+  (">", "%3e"),
+  ("#", "%23"),
+  ("(", "%28"),
+  (")", "%29")
+);
+
+// Options
+
+$enable-smooth-scroll: true;
+
+// Components
+
+$border-width: 1px;
+$border-style: solid;
+$border-radius: 6px;
+$border-color: $gray-200;
+
+// Spacing
+
+$spacing-2: 2px;
+$spacing-4: 4px;
+$spacing-6: 6px;
+$spacing-8: 8px;
+$spacing-10: 10px;
+$spacing-12: 12px;
+$spacing-16: 16px;
+$spacing-20: 20px;
+$spacing-24: 24px;
+$spacing-32: 32px;
+$spacing-48: 48px;
+
+// Breakpoints
+
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+// Typography
+
+$font-size-10: 10px;
+$font-size-12: 12px;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-20: 20px;
+$font-size-28: 28px;
+$font-size-36: 36px;
+$font-size-48: 48px;
+
+$font-family-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$font-family-base: var(--font-sans-serif);
+
+$font-size-base: $font-size-16;
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+$font-weight-base: $font-weight-normal;
+
+$line-height-md: 2;
+$line-height-base: 1.5;
+$line-height-sm: 1.2;
+$line-height-xs: 1;
+
+$headings-margin-bottom: $spacing-8;
+$headings-font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+$headings-font-style: null;
+$headings-font-weight: $font-weight-medium;
+$headings-line-height: $line-height-sm;
+$headings-color: inherit;
+
+// Body
+
+$body-text-align: null;
+$body-color: $black;
+$body-bg: $white;
+
+// Links
+
+$link-color: $homez-blue;
+$link-decoration: underline;
+$link-hover-color: $homez-green;
+$link-hover-decoration: null;
+
+// Paragraphs
+
+$paragraph-margin-bottom: $spacing-16;
+
+$lead-font-size: $font-size-20;
+$lead-font-weight: $font-weight-light;
+
+// Buttons + Forms
+
+$input-btn-padding-y: $spacing-8;
+$input-btn-padding-x: $spacing-12;
+$input-btn-font-family: null;
+$input-btn-font-size: $font-size-14;
+$input-btn-line-height: $line-height-base;
+
+$input-btn-border-width: var(--border-width);
+
+// Buttons
+
+$btn-color: $white;
+$btn-bg: $homez-green;
+$btn-padding-y: $input-btn-padding-y;
+$btn-padding-x: $input-btn-padding-x;
+$btn-font-family: $input-btn-font-family;
+$btn-font-size: $input-btn-font-size;
+$btn-line-height: $input-btn-line-height;
+$btn-white-space: null;
+$btn-border-width: $input-btn-border-width;
+$btn-border-color: $homez-green;
+$btn-font-weight: $font-weight-normal;
+$btn-border-radius: var(--border-radius);
+$btn-transition: 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+$btn-hover-color: $white;
+$btn-hover-bg: $homez-blue;
+$btn-hover-border-color: $homez-blue;
+
+// Forms
+$input-padding-y: $input-btn-padding-y;
+$input-padding-x: $input-btn-padding-x;
+$input-font-family: $input-btn-font-family;
+$input-font-size: $input-btn-font-size;
+$input-font-weight: $font-weight-base;
+$input-line-height: $input-btn-line-height;
+$input-bg: var(--body-bg);
+$input-color: var(--body-color);
+$input-border-color: var(--border-color);
+$input-border-width: $input-btn-border-width;
+$input-border-radius: var(--border-radius);
+$input-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+$form-select-padding-y: $input-padding-y;
+$form-select-padding-x: $input-padding-x;
+$form-select-indicator-padding: $form-select-padding-x * 3; // Extra padding for background-image
+$form-select-font-family: $input-font-family;
+$form-select-font-size: $input-font-size;
+$form-select-font-weight: $input-font-weight;
+$form-select-line-height: $input-line-height;
+$form-select-color: $input-color;
+$form-select-bg: $input-bg;
+$form-select-bg-position: right $form-select-padding-x center;
+$form-select-bg-size: 16px 12px; // In pixels because image dimensions
+$form-select-border-width: $input-border-width;
+$form-select-border-color: $input-border-color;
+$form-select-border-radius: $input-border-radius;
+$form-select-transition: $input-transition;
+$form-select-indicator-color: $gray-800;
+$form-select-indicator: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='#{$form-select-indicator-color}' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/></svg>") !default;
+
+// Navs
+
+$nav-link-padding-y: $spacing-8;
+$nav-link-padding-x: 0;
+$nav-link-font-size: null;
+$nav-link-font-weight: null;
+$nav-link-color: $black;
+$nav-link-hover-color: var(--link-hover-color);
+$nav-link-transition: color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+
+// Site
+$site-logo-color: $black;
+$site-logo-decoration: none;
+$site-logo-hover-color: $homez-green;
+$site-logo-hover-decoration: null;
+$site-logo-font-size: $font-size-36;
+$site-logo-font-weight: $font-weight-bold;
+$site-logo-font-family: $headings-font-family;
