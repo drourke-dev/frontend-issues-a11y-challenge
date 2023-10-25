@@ -11,7 +11,11 @@ export const InquiryForm = () => {
           Inquiry Form
         </Heading>
         <form>
-          <Select className="c-inquiry-form__form-control" label="Inquiry Type">
+          <Select
+            id="Inquiry Type"
+            className="c-inquiry-form__form-control"
+            label="Inquiry Type"
+          >
             <option>—Please choose an option—</option>
             <option>Apartments</option>
             <option>Houses</option>
@@ -32,6 +36,7 @@ export const InquiryForm = () => {
             placeholder="example@gmail.com"
           />
           <Select
+            id="Personnel role"
             className="c-inquiry-form__form-control"
             label="Personnel role"
           >
