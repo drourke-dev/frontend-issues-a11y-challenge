@@ -28,7 +28,7 @@ export const FeaturedPosts = () => {
             </a>
           </div>
           <div className="c-card__img">
-            <img src={ImgHouse} width="200" />
+            <img src={ImgHouse} width="200" alt="wooden house during day" />
           </div>
         </Card>
         <Card>
@@ -47,7 +47,11 @@ export const FeaturedPosts = () => {
             </a>
           </div>
           <div className="c-card__img">
-            <img src={ImgApartment} width="200" />
+            <img
+              src={ImgApartment}
+              width="200"
+              alt="white modern cement building under blue sky"
+            />
           </div>
         </Card>
       </div>
