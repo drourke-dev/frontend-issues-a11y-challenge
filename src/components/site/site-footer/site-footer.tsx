@@ -8,7 +8,7 @@ export const SiteFooter = () => {
       <Container>
         <div className="site-footer__grid">
           <div className="site-footer-navigation">
-            <h4 className="site-footer-navigation__title">Popular Search</h4>
+            <h2 className="site-footer-navigation__title">Popular Search</h2>
             <Nav className="site-footer-navigation__nav">
               <NavLink
                 className="site-footer-navigation__nav__link"
@@ -37,7 +37,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h4 className="site-footer-navigation__title">Quick Links</h4>
+            <h2 className="site-footer-navigation__title">Quick Links</h2>
             <Nav className="site-footer-navigation__nav">
               <NavLink
                 className="site-footer-navigation__nav__link"
@@ -84,7 +84,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h4 className="site-footer-navigation__title">Discovery</h4>
+            <h2 className="site-footer-navigation__title">Discovery</h2>
             <Nav className="site-footer-navigation__nav">
               <NavLink
                 className="site-footer-navigation__nav__link"
@@ -119,7 +119,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h4 className="site-footer-navigation__title">Follow Us</h4>
+            <h2 className="site-footer-navigation__title">Follow Us</h2>
             <Nav className="site-footer-navigation__nav">
               <NavLink
                 className="site-footer-navigation__nav__link"
