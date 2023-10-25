@@ -5,7 +5,7 @@ import { InquiryForm } from "../../content/inquiry-form";
 
 export const SiteMain = () => {
   return (
-    <main className="site-main">
+    <main id="site-main" className="site-main">
       <Container>
         <Hero />
         <FeaturedPosts />
