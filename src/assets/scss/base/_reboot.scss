@@ -4,7 +4,9 @@ html {
   box-sizing: border-box;
 
   @if $enable-smooth-scroll {
-    scroll-behavior: smooth;
+    @media (prefers-reduced-motion: no-preference) {
+      scroll-behavior: smooth;
+    }
   }
 }
 
