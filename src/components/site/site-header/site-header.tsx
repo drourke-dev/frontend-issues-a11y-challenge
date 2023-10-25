@@ -9,7 +9,7 @@ export const SiteHeader = () => {
     <div className="site-header">
       <Container>
         <div className="site-header__topbar">
-          <Link href="/" className="site-header__topbar__link">
+          <Link href="/subscribe" className="site-header__topbar__link">
             Subscribe
           </Link>
 
@@ -19,7 +19,7 @@ export const SiteHeader = () => {
 
           <div className="site-header__topbar__cta">
             <span aria-hidden="true">
-              <a className="c-link--secondary mx-16" href="/">
+              <a className="c-link--secondary mx-16" href="/search">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"

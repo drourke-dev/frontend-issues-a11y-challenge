@@ -23,7 +23,7 @@ export const FeaturedPosts = () => {
               Nullam sollicitudin blandit eros eu pretium. Nullam maximus
               ultricies auctor.
             </p>
-            <a href="/" className="c-card__text__link">
+            <a href="/find-a-home" className="c-card__text__link">
               Find a home
             </a>
           </div>
@@ -42,7 +42,7 @@ export const FeaturedPosts = () => {
               Nullam sollicitudin blandit eros eu pretium. Nullam maximus
               ultricies auctor.
             </p>
-            <a href="/" className="c-card__text__link">
+            <a href="/place-an-ad" className="c-card__text__link">
               Place an ad
             </a>
           </div>

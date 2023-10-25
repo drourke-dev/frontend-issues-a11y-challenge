@@ -69,40 +69,40 @@ export const InquiryForm = () => {
         </Heading>
         <div className="c-list c-list--unstyled mb-0">
           <li>
-            <a href="/">March 2023</a>
+            <a href="/march-2023">March 2023</a>
           </li>
           <li>
-            <a href="/">February 2023</a>
+            <a href="/february-2023">February 2023</a>
           </li>
           <li>
-            <a href="/">January 2023</a>
+            <a href="/january-2023">January 2023</a>
           </li>
           <li>
-            <a href="/">December 2022</a>
+            <a href="/december-2022">December 2022</a>
           </li>
           <li>
-            <a href="/">November 2022</a>
+            <a href="/novemeber-2022">November 2022</a>
           </li>
           <li>
-            <a href="/">October 2022</a>
+            <a href="/october-2022">October 2022</a>
           </li>
           <li>
-            <a href="/">September 2022</a>
+            <a href="/september-2022">September 2022</a>
           </li>
           <li>
-            <a href="/">August 2022</a>
+            <a href="/august-2022">August 2022</a>
           </li>
           <li>
-            <a href="/">July 2022</a>
+            <a href="/july-2022">July 2022</a>
           </li>
           <li>
-            <a href="/">June 2022</a>
+            <a href="/june-2022">June 2022</a>
           </li>
           <li>
-            <a href="/">May 2022</a>
+            <a href="/may-2022">May 2022</a>
           </li>
           <li>
-            <a href="/">April 2022</a>
+            <a href="/april-2022">April 2022</a>
           </li>
         </div>
       </div>

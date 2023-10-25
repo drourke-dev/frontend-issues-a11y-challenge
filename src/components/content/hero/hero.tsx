@@ -13,7 +13,9 @@ export const Hero = () => {
           reality.
         </p>
         <p className="c-paragraph--lead mb-0">
-          <a href="/">Continue reading...</a>
+          <a href="/the-best-way-to-find-your-dream-home">
+            Continue reading...
+          </a>
         </p>
       </div>
     </div>
