@@ -9,12 +9,13 @@ export const SiteNavbar = ({ className }: SiteNavbarProps) => {
   return (
     <div className={`site-navbar ${className ? className : ""}`.trim()}>
       <Nav className="site-navbar__nav">
-        <span
+        <NavLink
           className="c-link c-nav-link site-navbar__nav__link is-active"
           aria-current="page"
+          href="#"
         >
           Welcome
-        </span>
+        </NavLink>
         <NavLink className="site-navbar__nav__link" href="/apartments">
           Apartments
         </NavLink>
