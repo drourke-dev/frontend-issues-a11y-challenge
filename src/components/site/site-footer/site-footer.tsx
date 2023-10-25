@@ -8,7 +8,7 @@ export const SiteFooter = () => {
       <Container>
         <div className="site-footer__grid">
           <div className="site-footer-navigation">
-            <h2 className="site-footer-navigation__title">Popular Search</h2>
+            <h4 className="site-footer-navigation__title">Popular Search</h4>
             <Nav className="site-footer-navigation__nav">
               <NavLink className="site-footer-navigation__nav__link" href="/">
                 Apartment for Sale
@@ -25,7 +25,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h2 className="site-footer-navigation__title">Quick Links</h2>
+            <h4 className="site-footer-navigation__title">Quick Links</h4>
             <Nav className="site-footer-navigation__nav">
               <NavLink className="site-footer-navigation__nav__link" href="/">
                 Terms of Use
@@ -51,7 +51,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h2 className="site-footer-navigation__title">Discovery</h2>
+            <h4 className="site-footer-navigation__title">Discovery</h4>
             <Nav className="site-footer-navigation__nav">
               <NavLink className="site-footer-navigation__nav__link" href="/">
                 Chicago
@@ -71,7 +71,7 @@ export const SiteFooter = () => {
             </Nav>
           </div>
           <div className="site-footer-navigation">
-            <h2 className="site-footer-navigation__title">Follow Us</h2>
+            <h4 className="site-footer-navigation__title">Follow Us</h4>
             <Nav className="site-footer-navigation__nav">
               <NavLink className="site-footer-navigation__nav__link" href="/">
                 Twitter
