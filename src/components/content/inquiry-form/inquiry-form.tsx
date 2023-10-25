@@ -67,7 +67,7 @@ export const InquiryForm = () => {
         <Heading as="h2" className="c-heading--2">
           Archives
         </Heading>
-        <div className="c-list c-list--unstyled mb-0">
+        <ol className="c-list c-list--unstyled mb-0">
           <li>
             <a href="/march-2023">March 2023</a>
           </li>
@@ -104,7 +104,7 @@ export const InquiryForm = () => {
           <li>
             <a href="/april-2022">April 2022</a>
           </li>
-        </div>
+        </ol>
       </div>
     </section>
   );
