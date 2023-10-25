@@ -16,7 +16,11 @@ export const SiteHeader = () => {
             homez
           </SiteLogo>
           <div className="site-header__topbar__cta">
-            <a className="c-link--secondary mx-16" href="/search">
+            <a
+              className="c-link--secondary mx-16"
+              href="/search"
+              aria-label="Sitewide Search"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
