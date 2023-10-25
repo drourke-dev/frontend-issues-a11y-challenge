@@ -12,15 +12,15 @@ export const SiteHeader = () => {
           <Link href="/subscribe" className="site-header__topbar__link">
             Subscribe
           </Link>
-
           <SiteLogo className="site-header__topbar__site-logo" href="#">
             homez
           </SiteLogo>
-
           <div className="site-header__topbar__cta">
             <span aria-hidden="true">
               <a className="c-link--secondary mx-16" href="/search">
                 <svg
+                  aria-hidden="true"
+                  focusable="false"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
