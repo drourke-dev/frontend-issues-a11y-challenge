@@ -7,7 +7,7 @@ import ImgApartment from "../../../assets/images/img-apartment.jpg";
 export const FeaturedPosts = () => {
   return (
     <section className="c-featured-posts">
-      <Heading as="h3" className="c-heading--2">
+      <Heading as="h2" className="c-heading--2">
         Featured Posts
       </Heading>
 
