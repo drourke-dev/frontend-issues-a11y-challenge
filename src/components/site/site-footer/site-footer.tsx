@@ -4,7 +4,7 @@ import { Container } from "../grid/container";
 
 export const SiteFooter = () => {
   return (
-    <div className="site-footer">
+    <footer className="site-footer">
       <Container>
         <div className="site-footer__grid">
           <div className="site-footer-navigation">
@@ -143,6 +143,6 @@ export const SiteFooter = () => {
           </div>
         </div>
       </Container>
-    </div>
+    </footer>
   );
 };

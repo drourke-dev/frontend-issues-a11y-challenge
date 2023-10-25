@@ -9,8 +9,8 @@ export type NavProps = PropsWithChildren<NavOwnProps> &
 
 export const Nav = ({ children, className }: NavProps) => {
   return (
-    <div className={`c-nav ${className ? className : ""}`.trim()}>
+    <nav className={`c-nav ${className ? className : ""}`.trim()}>
       {children}
-    </div>
+    </nav>
   );
 };

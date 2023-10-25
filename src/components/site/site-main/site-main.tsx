@@ -5,12 +5,12 @@ import { InquiryForm } from "../../content/inquiry-form";
 
 export const SiteMain = () => {
   return (
-    <div className="site-main">
+    <main className="site-main">
       <Container>
         <Hero />
         <FeaturedPosts />
         <InquiryForm />
       </Container>
-    </div>
+    </main>
   );
 };

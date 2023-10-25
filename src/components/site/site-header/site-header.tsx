@@ -6,7 +6,7 @@ import { SiteNavbar } from "../site-navbar";
 
 export const SiteHeader = () => {
   return (
-    <div className="site-header">
+    <header className="site-header">
       <Container>
         <div className="site-header__topbar">
           <Link href="/subscribe" className="site-header__topbar__link">
@@ -36,6 +36,6 @@ export const SiteHeader = () => {
         </div>
         <SiteNavbar className="site-header__bottombar" />
       </Container>
-    </div>
+    </header>
   );
 };
